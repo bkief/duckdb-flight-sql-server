@@ -1,4 +1,4 @@
-FROM voltrondata/flight-sql:lastest
+FROM voltrondata/flight-sql:latest
 
 RUN duckdb -c "INSTALL arrow; INSTALL azure; INSTALL httpfs; INSTALL postgres;"
 
